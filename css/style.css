@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: "Inria Sans", sans-serif;
+  }
+  header {
+    background-color: #EEC9C8;
+    font-family: "Inria serif", serif;
+    font-size: 15px;
+    padding: 15px;
+  }
+  .nav{
+    color: #EEC9C8;
+  }
+  .heading {
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 30px;
+  }
+  .research {
+    padding: 60px 30px;
+    padding-top: 20px;
+    background-color: #515151;
+  }
+  .research h1{
+    color: white
+  }
+  .problem {
+    background: #FBFAFA;
+    color: #515151
+  }
+  .iterations {
+    background: #515151;
+    color: #FBFAFA;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .iterations h1{
+    color:#FBFAFA
+  }
+  .tabcontent {
+    color:#FBFAFA;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img3 {
+    grid-area: img3;
+  }
+  .img1, .img2, .img3, .content1, .content2, .content3 {
+    padding: 80px;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+  .content3 {
+    grid-area: content3;
+  }
+  
